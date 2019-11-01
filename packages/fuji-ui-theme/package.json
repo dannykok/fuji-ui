@@ -1,0 +1,27 @@
+{
+  "name": "@fuji-ui/theme",
+  "version": "0.5.4",
+  "description": "Themes for Fuji UI",
+  "main": "src/index.js",
+  "module": "es/index.es.js",
+  "files": [
+    "src",
+    "dist",
+    "es"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Danny Kok",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "styled-components": "^4.4.0",
+    "styled-system": "^5.1.2"
+  },
+  "devDependencies": {
+    "prop-types": "^15.7.2"
+  },
+  "gitHead": "6f6055ea9382d9a80b1fe3c0f627947a3eed46af"
+}

@@ -1,0 +1,22 @@
+node_modules/
+
+# ignore builds
+dist/
+es/
+
+# ignore generated files
+junit.xml
+
+# ignore all logs
+*.log
+
+# ignore editor generated files
+.vscode
+.idea
+.iml
+
+# ignore OS generated files
+**/.DS_Store
+
+# ignore local config files
+.envrc
